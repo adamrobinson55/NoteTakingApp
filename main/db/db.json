@@ -2,5 +2,13 @@
     {
         "title": "Test Title",
         "text": "Test text"
+    },
+    {
+        "title": "user title",
+        "text": "user text"
+    },
+    {
+        "title": "Added Note",
+        "text": "Added Note\n"
     }
 ]

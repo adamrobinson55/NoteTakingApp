@@ -4,6 +4,6 @@ const notesRouter = require('./notes')
 
 const app = express()
 
-app.use('/notes', notesRouter)
+app.use('/', notesRouter)
 
 module.exports = app
