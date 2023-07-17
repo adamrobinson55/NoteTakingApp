@@ -14,5 +14,13 @@
     {
         "title": "New Note",
         "text": "New Note"
+    },
+    {
+        "title": "works",
+        "text": "works\n"
+    },
+    {
+        "title": "works again",
+        "text": "works agian\n"
     }
 ]
