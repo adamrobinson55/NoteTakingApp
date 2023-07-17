@@ -3,7 +3,7 @@ const {
     readFromFile,
     writeToFile,
     readAndAppend
-} = require('../helpers/fsUtils')
+} = require('../../helpers/fsUtils')
 
 
 notes.get('/notes', (req, res) => {
