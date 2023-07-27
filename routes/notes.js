@@ -38,7 +38,7 @@ notes.delete('/notes/:id', (req, res) => {
     readFromFile('./db/db.json')
         .then((data) => JSON.parse(data))
         .then((json) => {
-            const result = json.filter((note) => note.id !== noteId)
+            const result = json.filter((note) => note.id !== noteId) //My notes don't have an ID?
 
             writeToFile('./db/db.json', result)
 
